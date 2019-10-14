@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+/*
+ * @author : Adam Graff
+ */
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+		
+		System.out.print("A");
+		System.out.print("B" + "\n"); // the \n is used to create a new line
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter your full name: ");
+		String name = scan.next();
+		System.out.println(name);
+	}
+}

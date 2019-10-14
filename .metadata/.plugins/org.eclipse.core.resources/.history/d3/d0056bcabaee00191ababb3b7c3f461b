@@ -1,0 +1,15 @@
+/*
+ * @author : Adam Graff
+ */
+
+public class Lab2 {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to Grand Circus' Room Detail Generator!");
+		System.out.println();
+		System.out.print("Enter length: ");
+		System.out.print("Enter width: ");
+
+	}
+
+}
